@@ -668,10 +668,11 @@
     #define DEFAULT_Kp_LIST {  21.73,  21.73 }
     #define DEFAULT_Ki_LIST {   1.54,   1.54 }
     #define DEFAULT_Kd_LIST {  76.55,  76.55 }
-  #elif ENABLED(ENDER5_USE_MICROSWISS)
-    #define DEFAULT_Kp  46.45
-    #define DEFAULT_Ki   5.86
-    #define DEFAULT_Kd  91.97
+// still using the original Ender hotend, therefore disabling the PID params for microSwiss
+//  #elif ENABLED(ENDER5_USE_MICROSWISS) 
+//    #define DEFAULT_Kp  46.45
+//    #define DEFAULT_Ki   5.86
+//    #define DEFAULT_Kd  91.97
   #else
     #define DEFAULT_Kp  21.73
     #define DEFAULT_Ki   1.54
